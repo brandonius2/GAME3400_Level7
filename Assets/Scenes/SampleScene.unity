@@ -172265,7 +172265,7 @@ MonoBehaviour:
   text3: {fileID: 782909784}
   text4: {fileID: 1661473399}
   text5: {fileID: 1414716245}
-  refRate: 10
+  refRate: 0.5
   countdown: 0
   textCollection:
   - WWWWWWW
