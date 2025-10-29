@@ -43,7 +43,7 @@ public class TextController : MonoBehaviour
         "LittleDiaper",
         "IceSpicePoopy", 
         "T_Swizzle", 
-        "P4trick_Mahomo"};
+        "P4trick_Mahomes"};
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -54,8 +54,8 @@ public class TextController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        countdown += 1.0f;
-        if (countdown == refRate)
+        countdown += 1.0f * Time.deltaTime;
+        if (countdown >= refRate)
         {
             text5.text = text4.text;
             text4.text = text3.text;
