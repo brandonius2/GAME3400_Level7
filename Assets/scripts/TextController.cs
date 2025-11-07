@@ -28,7 +28,7 @@ public class TextController : MonoBehaviour
         "is there smth outside?", 
         "suck my balls", 
         "L rizzzzzzzzz", 
-        "holy shmock"};
+        "holy shmock", "I love this pattern", "aomngus sus", "is dat the bite of 87", "yo yo yo 420 67"};
     public List<string> nameCollection = new List<string>() { "zSpidxr", 
         "daRillionare", 
         "C_Barney",
@@ -43,7 +43,7 @@ public class TextController : MonoBehaviour
         "LittleDiaper",
         "IceSpicePoopy", 
         "T_Swizzle", 
-        "P4trick_Mahomes"};
+        "P4trick_Mahomes", "C Shwizzle", "BSchling", "DaPrezAoun", "t", "ChrisAlexanderPattern", "https:patternlanguage", "Pibble"};
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
